@@ -1,5 +1,8 @@
 ## Russian Roulette Game
-
+<div align="center">
+  <img src="revolver-RyanEnnHughes.gif" alt="revolver" width="250" height="250"  />
+</div>
+<br />
 PLEASE, install playsound-1.1.2 module to be able to play the sound effect of shooting:
 ```
 pip3 install playsound==1.2.2
