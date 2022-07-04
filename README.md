@@ -1,3 +1,13 @@
+## Russian Roulette Game
+
+PLEASE, install playsound-1.1.2 module to be able to play the sound effect of shooting:
+```
+pip3 install playsound==1.2.2
+```
+--------------------------------------------------------------------------------------------------------------
+
+
+### Rules
 Russian Roulette game made in python. The rules are simple: Each player has to press enter to pull the trigger
 and the player that hits the chambers that contains the bullet, losses!
 
