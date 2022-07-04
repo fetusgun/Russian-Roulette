@@ -36,4 +36,4 @@ for x in range(1, int(chambers) + 1):
             os.execv(sys.executable, [sys.executable] + sys.argv)
         else:
             break
-    print("You will live to see another day")
+    print("You will live to see the dawn")
