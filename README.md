@@ -23,7 +23,7 @@ Usage:
 
 - Run it
 ```bash
-python russian_roulette.py
+python3 russian_roulette.py
 ```
 
 - To pull the trigger press the enter key
