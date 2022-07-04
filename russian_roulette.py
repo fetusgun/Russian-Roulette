@@ -9,6 +9,11 @@ import os
 import sys
 from playsound import playsound
 
+print(""" || RUSSIAN ROULETTE GAME ||
+                ________. 
+            ~(_]-------'  
+            /_(U 
+""")
 
 chambers = input("Please enter the number of chambers (default = 6): ")
 
