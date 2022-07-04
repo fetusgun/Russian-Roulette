@@ -29,8 +29,8 @@ for x in range(1, int(chambers) + 1):
     input("Press enter to pull the trigger! ")
     if x == fatal_bullet:
 	playsound('gun-firing17.wav')
-        print("You just got served!")
         print("Game Over")
+	print("YOU DIED!!!")
         start_again = input("Do you want to start again? (y/n): ")
         if start_again and start_again.lower()[0] == "y":
             os.execv(sys.executable, [sys.executable] + sys.argv)
