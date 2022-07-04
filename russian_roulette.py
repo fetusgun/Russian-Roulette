@@ -7,6 +7,8 @@
 import random
 import os
 import sys
+from playsound import playsound
+
 
 chambers = input("Please enter the number of chambers (default = 6): ")
 
@@ -21,6 +23,7 @@ fatal_bullet = random.randint(1, int(chambers))
 for x in range(1, int(chambers) + 1):
     input("Press enter to pull the trigger! ")
     if x == fatal_bullet:
+	playsound('gun-firing17.wav')
         print("You just got served!")
         print("Game Over")
         start_again = input("Do you want to start again? (y/n): ")
